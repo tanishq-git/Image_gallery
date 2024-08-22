@@ -1,0 +1,29 @@
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .thumbnails {
+    flex: 1;
+  }
+  
+  .thumbnails img {
+    width: 100px;
+    height: auto;
+    cursor: pointer;
+  }
+  
+  .main-image {
+    flex: 3;
+  }
+  
+  .main-image img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+  }
+.thumbnails span{
+  color:red;
+  font-size: 25px;
+}  
